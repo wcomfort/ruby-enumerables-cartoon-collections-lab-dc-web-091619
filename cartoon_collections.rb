@@ -27,5 +27,5 @@ def find_the_cheese(array)
 #   i += 1 
 # end 
 cheese_types.each {|cheese|return cheese if array.include?(cheese)}
-nil 
+#nil 
 end
